@@ -1,0 +1,66 @@
+$secondary-font-family: "Roboto", "Quicksand", sans-serif;
+$main-font-family:"Quicksand", "Roboto", sans-serif;
+$base-fonts-path: "./../../fonts/";
+$base-assets-path: "./../../assets/";
+
+
+$font-sizes: (
+"xxl":48px,
+"xl":36px,
+
+"l":24px,
+"lg": 18px,
+"md": 15px,
+"d": 14px,
+"sm": 13px,
+"m": 12px,
+"xs": 11px,
+"s":10px);
+
+$colors:(
+"main-font-color":#8D96BD,
+"accent-color":#5E81FE,
+"light-blue":#D2E1FF,
+"dark-blue":#6888FF,
+"headers-color":#3D4F9F,
+"btn-primary-color":#3A79FF,
+"btn-danger-bg-color":#FFD7D7,
+"btn-danger-color":#D43F3F,
+"btn-secondary-color":#ADB4D2,
+"btn-icon-color":#fff,
+"white-color":#fff,
+"btn-icon-bg-color":#4C85FF,
+"btn-base-color":#A6B6DA,
+"black":#000,
+"bordered-color":#D8E3FE,
+"banner-bg":#F5F6FF,
+"logos-hover-color":#5982E7,
+"desktop-bg":#F5F8FF,
+"about-color":#4074F8,
+"about-bg":#ADB3CB,
+"app-right-bg":#E0E9FF,
+"inputs-bg":#EFEFF7,
+"inputs-color":#7A85AD,
+"footer-color":#697CA6,
+"blog-color":#A8B4E5,
+);
+
+$content-widths: (
+"xl": 1200px,
+"lg": 992px,
+"md": 767px,
+"sm": 577px,
+);
+
+$containers: (
+        "container-xl": 1200px,
+        "container-lg": 840px,
+        "container-md": 767px,
+        "container-sm": 577px,
+);
+
+
+
+
+
+

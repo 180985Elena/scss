@@ -1,0 +1,65 @@
+.footer{
+  $logo-dimensions:26px;
+  padding: 93px ;
+  max-height: 287px;
+
+  &__content{
+    @extend %flex-between;
+    align-items: center;
+  }
+  &__start{
+    @extend %flex-between;
+    @include flex-gap(73px, false);
+    align-items: center;
+
+
+  }
+
+  &__logo a {
+    background-color: map-get($colors, 'accent-color');
+    width:$logo-dimensions;
+    height:$logo-dimensions;
+    border-radius: 50%;
+    transition: .3s box-shadow;
+
+    &:hover{
+      box-shadow: 0  0 11px -3px map-get($colors, 'black');
+    }
+  }
+
+  &__main-menu ul{
+    @extend %list-unstyled;
+    @include flex-gap(42px);
+
+
+    a{
+      @extend %base-link;
+      color: map-get($colors, 'footer-color');
+    }
+  }
+
+  &__end{
+    @extend %flex-between;
+    @include flex-gap (15px);
+    align-items: center;
+
+
+  }
+  &__socials  ul {
+    @extend %list-unstyled;
+    @include flex-gap (20px);
+
+
+    a{
+      @extend %base-link;
+      font-size:map-get($font-sizes,'lg');
+
+    }
+  }
+  &__copyright {
+    padding: 15px 99px ;
+  }
+
+
+
+}

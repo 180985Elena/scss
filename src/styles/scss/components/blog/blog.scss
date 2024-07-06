@@ -1,0 +1,73 @@
+.blog{
+  background-color: map-get($colors, "desktop-bg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  &__start {
+    padding: 100px 0;
+
+    text-align: center;
+
+
+    h5 {
+
+      font-family: $secondary-font-family;
+      font-size: map-get($font-sizes,"s");
+      color:map-get($colors, "headers-color");
+      font-weight: 500;
+    }
+    h2{
+      padding-top: 20px;
+      color:map-get($colors, "headers-color");
+      font-weight: 500;
+      font-size: map-get($font-sizes,"l");
+    }
+
+  }
+
+  &__contents {
+    max-width: 958px;
+    background-color: map-get($colors, "white-color");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 213px;
+
+  }
+
+  &__description {
+    position: relative;
+    margin: 0 100px 0 0;
+    min-width: 360px;
+    h1 {
+      color: map-get($colors, "headers-color");
+      font-size: map-get($font-sizes, "xl");
+
+    }
+    p {
+      padding: 32px 0;
+
+      font-size: map-get($font-sizes, "d");
+      font-family: $secondary-font-family;
+      Line-height: 27px;
+    }
+
+  }
+
+  &__arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    max-width: 1100px;
+    min-width: 1100px;
+
+    a {
+      color: map-get($colors, "blog-color");
+
+    }
+  }
+
+}
