@@ -1,0 +1,14 @@
+{
+  "name": "freebie",
+  "version": "1.0.0",
+  "description": "https://nodejs.org/en\r https://sass-lang.com/\r sass --watch ./src/styles/scss/home-page.scss:./src/styles/css/home-page.css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
